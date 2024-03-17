@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(82, 135, 67);
+}
+
+#heading{
+        
+    color: yellow;
+    
+}
+
+.container {
+    text-align: center;
+   
+}
+
+#gameBoard {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: yellow;
+    border-color: rgb(0, 85, 255);
+}
+
